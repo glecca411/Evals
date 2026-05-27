@@ -32,7 +32,7 @@ with st.sidebar:
         ["Recordar y Comprender (Básico)", "Aplicar y Analizar (Intermedio)", "Evaluar y Crear (Avanzado)"]
     )
     
-    cantidad_preguntas = st.slider("Cantidad de preguntas a generar:", min_value=3, max_value=10, value=5)
+    cantidad_preguntas = st.slider("Cantidad de preguntas a generar:", min_value=3, max_value=20, value=5)
     
     criterios_rubrica = st.text_input(
         "Criterios de la rúbrica (separados por comas):",
